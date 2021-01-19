@@ -18,7 +18,7 @@ def main():
 	print("""
       
 	  
-	   Webhook Tool By Psychopath
+	   Webhook Tool By PsychopathZ github.com/psychopathz
                                                                                                 
                                                                                                 
 		""")
