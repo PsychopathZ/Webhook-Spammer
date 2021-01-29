@@ -15,13 +15,7 @@ def deleterequest(url):
 
 def main():
 	numberofrequest = 0
-	print("""
-      
-	  
-	   Webhook Tool By PsychopathZ github.com/psychopathz
-                                                                                                
-                                                                                                
-		""")
+	print("Webhook Tool By PsychopathZ github.com/psychopathz")
 	choice = input("""
 	[1] Spam Webhook
 	[2] Delete Webhook
@@ -35,7 +29,7 @@ def main():
 				numberofrequest+=1
 				postrequest(webhook,username,subject)
 				print(str(numberofrequest)+" | Request sended to the webhook succesfully.")
-				time.sleep(2)
+				time.sleep(1)
 		except urllib.error.HTTPError:
 			main()
 	if(choice == "2"):
